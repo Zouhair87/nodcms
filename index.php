@@ -62,7 +62,8 @@ if(!is_readable('nodcms/config/database.php')){
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     define('ENVIRONMENT', 'development');
 } else {
-    define('ENVIRONMENT', 'production');
+    define('ENVIRONMENT', 'development');
+//    define('ENVIRONMENT', 'production');
 }
 /*
  *---------------------------------------------------------------
